@@ -1,0 +1,4 @@
+npx create‑react‑app smart‑traffic‑dashboard
+cd smart‑traffic‑dashboard
+npm install tailwindcss postcss autoprefixer
+npx tailwindcss init ‑‑full
