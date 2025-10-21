@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #0a1a2a;
+  color: #fff;
+  transition: background 0.3s, color 0.3s;
+}
+
+body.light {
+  background-color: #f9f9f9;
+  color: #111;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(145deg, #0a1a2a, #00111a);
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  color: #00e5ff;
+  text-shadow: 0 0 10px #00e5ff;
+}
+
+.hero p {
+  margin: 20px 0;
+  font-size: 1.2em;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  margin: 10px;
+  background: #ff073a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.outline {
+  background: transparent;
+  border: 2px solid #00e5ff;
+  color: #00e5ff;
+}
+
+.section {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background: #112233;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.workflow {
+  list-style: decimal;
+  padding-left: 20px;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+
+.stat {
+  background: #112233;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 1.2em;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #00111a;
+}
+
+#themeToggle {
+  margin-top: 20px;
+  background: transparent;
+  border: 1px solid #00e5ff;
+  color: #00e5ff;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 6px;
+}
